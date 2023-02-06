@@ -35,12 +35,11 @@
 
 ```POST - /api/orders``` -> Cria uma ordem
 
-    ```
-        - Corpo da requisição, exemplo : {
+    json```
+    {
 	    "name": "calabresa",
 	    "quantity": 3
-        }
-    
+    }
     ``` 
 
 ```GET - /api/orders``` -> Retorna todas as orderns
