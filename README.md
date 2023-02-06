@@ -21,8 +21,8 @@
 ## Endpoints
 ```POST - /api/pizzas``` -> Cria uma pizza
 
-    ```
-      - Corpo da requisição, exemplo : {
+    json```
+    {
 	    "name": "calabresa",
 	    "price": 45,
 	    "ingredients": ["tomate", "calabresa", "cebola"]
