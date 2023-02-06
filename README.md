@@ -20,6 +20,7 @@
 
 ## Endpoints
 ```POST - /api/pizzas``` -> Cria uma pizza
+
     ```
       - Corpo da requisição, exemplo : {
 	    "name": "calabresa",
@@ -33,6 +34,7 @@
 
 
 ```POST - /api/orders``` -> Cria uma ordem
+
     ```
         - Corpo da requisição, exemplo : {
 	    "name": "calabresa",
