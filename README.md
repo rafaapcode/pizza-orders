@@ -20,21 +20,26 @@
 
 ## Endpoints
 ```POST - /api/pizzas``` -> Cria uma pizza
-    - Corpo da requisição, exemplo : {
+    ```
+      - Corpo da requisição, exemplo : {
 	    "name": "calabresa",
 	    "price": 45,
 	    "ingredients": ["tomate", "calabresa", "cebola"]
     } 
+    ```
 
 ```GET - /api/pizzas``` -> Retorna todas as pizzas
 ```DELETE - /api/pizzas/:id``` -> Deleta uma pizza
 
 
 ```POST - /api/orders``` -> Cria uma ordem
-    - Corpo da requisição, exemplo : {
+    ```
+        - Corpo da requisição, exemplo : {
 	    "name": "calabresa",
 	    "quantity": 3
-    } 
+        }
+    
+    ``` 
 
 ```GET - /api/orders``` -> Retorna todas as orderns
 ```GET - /api/orders/:id``` -> Deleta uma ordem
