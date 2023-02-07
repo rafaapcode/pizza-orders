@@ -1,5 +1,5 @@
 import express from 'express';
-import router from './routes/routes';
+import router from './src/routes/routes';
 
 class App {
     app: express.Application;
